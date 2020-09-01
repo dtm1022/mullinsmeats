@@ -1,0 +1,50 @@
+@charset "utf-8";
+html{
+    background-color: rgb(48, 0, 0)
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: ivory;
+    background-color: rgb(63, 63, 63);
+    margin: 25px;
+}
+header{
+    text-align: center;
+    padding: 25px;
+    font-size: 50px;
+}
+h2{
+    font-size: 1.3em;
+}
+nav{
+    background-color: rgb(48, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+a{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    color: ivory;
+}
+a:hover{
+    text-decoration: underline;
+    color: grey;
+}
+main{
+    padding-right: 25px;
+    padding-left: 25px;
+}
+img{
+    width: 25%;
+    padding: 50px;
+}
+body>footer{
+    background-color: rgb(48, 0, 0)
+    font-style: bold;
+    font-size: 0.9em;
+    line-height: 3em;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
